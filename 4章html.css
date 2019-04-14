@@ -1,0 +1,103 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするため */
+* {
+  margin: 0;/*前提を打ち消す*/
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+a {
+	text-decoration: none;
+}
+/*clearfixを追加*/
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+header{
+	width: 40%
+	padding: 20px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+/* headerタグ内のheadlineクラスにのみ反映される */
+header .headline{
+	font-size: 32px;
+}
+
+.nav-list {
+	text-align :center; /*テキストの行ぞろえ位置を設定 */
+	padding: 15px 0;
+	margin: 0 auto;
+	border-bottom: 1px solid #848282;
+	border-top: 1px solid #848282;
+}
+.nav-list-item {
+	list-style: none;
+	display: inline-block;
+	margin :0 20px;
+}
+
+.main{
+  width: 800px;
+  margin: 50px auto; /*上下の余白を50pxにする*/
+}
+
+.box1{
+	width: 200px;
+	height: 200px;
+	color: #e6ffe9;
+	float: left; /*要素を左揃えで並べる*/
+}
+.box2{
+	width: 200px;
+	height: 200px;
+	color: #cbffd3;
+	float: left; /*要素を左揃えで並べる*/
+}
+.box3{
+	width: 200px;
+	height: 200px;
+	color: #aeddbd;
+	float: left; /*要素を左揃えで並べる*/
+}
+.box4{
+	width: 200px;
+	height: 200px;
+	color: #93ffab;
+	float: left; /*要素を左揃えで並べる*/
+}
+.box5{
+	width: 200px;
+	height: 200px;
+	color: #f3ffd8;
+	float: left; /*要素を左揃えで並べる*/
+}
+.box6{
+	width: 200px;
+	height: 200px;
+	color: #edffbe;
+	float: left; /*要素を左揃えで並べる*/
+}
+.box7{
+	width: 200px;
+	height: 200px;
+	color: #e9ffa5;
+	float: left; /*要素を左揃えで並べる*/
+}
+.box8{
+	width: 200px;
+	height: 200px;
+	color: #e4ff8d;
+	float: left; /*要素を左揃えで並べる*/
+}
+footer{
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	line-height: 120px; /*文字の高さを120pxのボックスの真ん中にする*/
+	background-color: #848282;
+}
+.footer-text{
+	color: #fff;
+}
