@@ -1,0 +1,83 @@
+* {
+  margin: 0;/*前提を打ち消す*/
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000;
+}
+/*clearfixを追加*/
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+main{
+	width: 960px;
+	margin: 50px auto;
+}
+
+.step-box{
+	width: 300px;
+	float: left; /*要素を左揃えで並べる*/
+	margin-right: 30px;/*箱の右側の余白*/
+	padding: 10px;
+	border: 1px solid #eee;
+	position: relative;
+
+}
+.step-box:last-child{
+  margin-right: 0;
+}
+
+
+.step-img1{
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.step-img2{
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.step-img3{
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.step-num{
+	position: absolute;
+	top: 0;
+	left: 0;
+ 	background-color: #FF9A4B;
+	color: #fff;
+	padding: 3px;
+}
+.title{
+  margin: 15px 0 5px;
+  font color: black;
+}
+
+.text{
+  font color: black;
+}
+
+@media screen and (max-width:768px) {
+main {
+    width: 90%;
+    margin: 50px auto;
+  }
+  .step-box {
+    width: 90%;
+    margin: 10px auto;
+    float: none;
+  }
+  .step-box:last-child{
+  margin: 10px auto;
+}
+}
