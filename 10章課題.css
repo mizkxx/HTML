@@ -1,0 +1,604 @@
+* {
+  margin: 0;/*前提を打ち消す*/
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000;
+}
+/*clearfixを追加*/
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header{
+	background-color: #ec715f;
+	height: 70px;
+}
+nav{
+	width: 1024px;
+	margin: auto;
+}
+
+.nav-image{
+	height:70px;
+	float: left;
+}
+.nav-list{
+	text-align: right;
+	color: #FAFAFA;
+}
+.nav-list-item {
+	display: inline-block;
+	color: #FAFAFA !important;
+	font-size: 16px;
+	line-height: 70px;
+	margin: 0 30px;
+	text-decoration: none;
+}
+a.navlist{
+	text-decoration: none;
+	color: #FAFAFA;
+}
+.main-visual{
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-visual-title{
+	font-size: 64px;
+	color: white;
+	padding-top: 200px;
+	text-align: center;
+}
+
+.main-visual-text{
+	font-size: 20px;
+	color: #FAFAFA;
+	padding-top: 10px;
+	text-align: center;
+}
+
+
+.main1{
+	background-color: #eceff1;
+	width: 100%;
+}
+.main1-box{
+	width: 940px;
+	padding: 90px 0;
+	margin: 0 auto;
+}
+.main-title{
+	font-size: 32px;
+	font-color: #000000;
+	text-align: center;
+}
+.main-bar{
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F !important;
+	margin: 8px auto;
+}
+.main-text{
+	font-size: 16px;
+	font-color:#000000;
+	margin: 30px 0;
+	text-align: center;
+}
+.main1-image-contents{
+	width: 930px;
+	margin: 0 auto; /*width決まってないと意味ない*/
+}
+.main1-image-box1{
+  background-image: url(img/sketch.jpg);
+  float: left;
+  width: 300px;
+  padding-top: 250px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 5px 10px 5px;
+  }
+.main1-image-box2{
+  background-image: url(img/websuku.png);
+  float: left;
+  width: 300px;
+  padding-top: 250px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 5px 10px 5px;
+  }
+.main1-image-box3{
+  background-image: url(img/write.jpg);
+  float: left;
+  width: 300px;
+  padding-top: 250px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 5px 10px 5px;
+  }
+.main1-image-box4{
+  background-image: url(img/webcamp.png);
+  float: left;
+  width: 300px;
+  padding-top: 250px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 5px 0 5px;
+  }
+.main1-image-box5 {
+  background-image: url(img/talk.jpg);
+  float: left;
+  width: 300px;
+  padding-top: 250px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 5px 0 5px;
+  }
+.main1-image-box6{
+  background-image: url(img/webcamp-mother.png);
+  float: left;
+  width: 300px;
+  padding-top: 250px;
+  background-size: cover;
+  background-position: center;
+  margin : 0 5px;
+  }
+
+.main2{
+	width: 100%;
+	padding: 90px 0;
+}
+.main2-box{
+	width: 990px;
+	margin: 0 auto;
+}
+.main2-box-box{
+	width: 320px;
+	float: left;
+	margin: 0 auto;
+}
+.main2-box-box2{
+	width: 320px;
+	float: left;
+	margin: 0 10px;
+}
+.main2-box-title{
+	font-size: 20px;
+	text-align: center;
+	margin: 10px auto;
+}
+.main2-box-text{
+	width: 320px;
+	font-size: 16px;
+	color:#000000;
+	margin: 0 auto;
+}
+.strength i{
+	font-size: 60px;
+	text-align: center;
+	margin: 0 auto;
+}
+.strength {
+	margin: auto;
+	display: table;
+}
+
+.main3{
+	background-color: #ECEFF1;
+	padding: 90px 0;
+}
+.main3-box{
+	width: 1024px;
+	margin: 0 auto;
+	/*padding: 90px 0;*/
+}
+.main3-profile-box1{
+	width:512px;
+	float:left;
+	text-align: center;
+}
+.main3-profile-image{
+	/*background-image: url(img/my-icon.jpg);*/
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	/*background-size: cover;
+  	background-position: center;*/
+}
+.main3-profile-box2{
+	width:512px;
+	float:left;
+}
+
+.main3-profile-title1{
+	font-size: 20px;
+	margin:  0 0 5px 0;
+}
+.main3-profile-title2{
+	font-size: 20px;
+	margin:  20px 0 5px 0;
+}
+.main3-profile-text{
+	font-size: 16px;
+}
+.main4{
+	width: 100%;
+	padding: 90px 0;
+}
+.main4-box{
+	width: 800px;
+	margin: 0 auto;
+}
+.main4-box-adress{
+	margin: 0 auto;
+}
+.main4-box-box{
+	float: left;
+	width: 400px;
+}
+.main4-box-adress{
+	margin: 0 auto;/*この箱自体だけを中央寄せしたい*/
+	display: table;
+}
+.main4-profile-title1{
+	font-size: 20px;
+	margin: 0 0 5px;
+}
+.main4-profile-title2{
+	font-size: 20px;
+	margin: 20px auto 5px;
+}
+.social i {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 50px;
+}
+
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+}
+.footer-message{
+	width: 100%;
+	font-size: 16px;
+	color: #FAFAFA;
+	line-height: 60px;
+	text-align: center;
+}
+
+@media screen and (max-width:768px) {
+
+header{
+	background-color: #ec715f;
+	height: 50px;
+}
+nav{
+	width: 90%;
+	margin: 0 auto;
+}
+.nav-list{
+	display: none;
+}
+
+.nav-image{
+	height:50px;
+	float: left;
+}
+
+/*メニュー部分*/
+#ham-menu {
+    background-color: #ec715f; /*メニュー背景色*/
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px 40px; /*メニュー内部上下左右余白*/
+    position: fixed;
+    right: -300px; /*メニュー横幅①と合わせる*/
+    top: 0;
+    transition: transform 0.3s linear 0s; /*0.3s は変化するのにかかる時間*/
+    width: 300px; /*メニュー横幅①*/
+    z-index: 1000;
+}
+
+/*メニューアイコン部分は疑似要素で*/
+#ham-menu::before {
+    background-color: #ec715f; /*ボタン部分背景色*/
+    border-radius: 0 0 0 10px; /*左下角丸*/
+    color: #333; /*アイコン（フォント）色*/
+    content: "≡"; /*メニューアイコン*/
+    display: block;
+    font-size: 50px; /*アイコン（フォント）サイズ*/
+    color: #FAFAFA;
+    height: 50px;
+    line-height: 50px; /*縦位置中央化*/
+    position: absolute;
+    right: 100%;
+    text-align: center;
+    top: 0;
+    width: 50px;
+}
+
+/*透過背景部分*/
+#menu-background {
+    background-color: #333; /*黒背景部分背景色*/
+    display: block;
+    height: 100%;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: all 0.3s linear 0s; /*0.3s は変化するのにかかる時間*/
+    width: 100%;
+    z-index: -1;
+}
+
+/*hover 時の処理*/
+#ham-menu:hover {
+    transform: translate(-300px); /*メニュー横幅①と合わせる*/
+}
+
+#ham-menu:hover + #menu-background {
+    opacity: 0.5; /*黒背景部分透過度*/
+    z-index: 999;
+}
+/*ハンバーガーメニューで対応/*
+.nav-list{
+	text-align: right;
+	color: #FAFAFA;
+}
+.nav-list-item {
+	display: inline-block;
+	color: #FAFAFA !important;
+	font-size: 16px;
+	line-height: 50px;
+	margin: 0 30px;
+}
+a.navlist{
+	text-decoration: none;
+	color: #FAFAFA;
+}
+  .nav-list{
+  	width:100%;
+  }
+  .nav-list-item{
+  	width:100%;
+  	margin: 0 0 10px 0;
+  }
+  /*ここまで*/
+
+.main-visual{
+  height: 650px;
+  background-image: url(img/code.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-visual-title{
+	font-size: 40px;
+	color: #FAFAFA;
+	padding-top: 200px;
+	text-align: center;
+}
+
+.main-visual-text{
+	font-size: 18px;
+	color: #FAFAFA;
+	padding-top: 10px;
+	text-align: center;
+}
+
+
+.main1{
+	background-color: #eceff1;
+	width: 100%;
+}
+.main1-box{
+	width: 90%;
+	padding: 90px 0;
+	margin: 0 auto;
+}
+.main-title{
+	font-size: 32px;
+	font-color: #000000;
+	text-align: center;
+}
+.main-bar{
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F !important;
+	margin: 8px auto;
+}
+.main-text{
+	font-size: 16px;
+	font-color:#000000;
+	margin: 30px 0;
+	text-align: center;
+}
+.main1-image-contents{
+	width: 300px;
+	margin: 0 auto; /*width決まってないと意味ない*/
+	text-align: center;
+	display: table;
+}
+
+.main1-image-box2{
+  background-image: url(img/websuku.png);
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  }
+
+.main1-image-box4{
+  background-image: url(img/webcamp.png);
+  width: 300px;
+  padding-top: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  }
+
+.main1-image-box6{
+  background-image: url(img/webcamp-mother.png);
+  width: 300px;
+  padding-top: 250px;
+  background-size: cover;
+  background-position: center;
+  }
+
+.main1-image-box1{
+  display: none;
+}
+.main1-image-box3{
+  display: none;
+}
+.main1-image-box5{
+  display: none;
+}
+
+
+.main2{
+	width: 100%;
+	padding: 90px 0;
+	margin: 0 auto;
+}
+.main2-box{
+	width: 90%;
+	margin: 0 auto;
+}
+.main2-box-box{ /*こいつら中央によらない*/
+	width: 90%;
+	margin: 0 auto;
+	float: none;
+}
+.main2-box-box2{
+	width: 90%;
+	margin: 10px auto;
+	float: none;
+}
+.main2-box-title{
+	font-size: 20px;
+	text-align: center;
+	margin: 10px auto;
+}
+.main2-box-text{
+	width: 90%;
+	font-size: 16px;
+	color:#000000;
+	margin: 0 auto;
+}
+.strength i{
+	font-size: 60px;
+	text-align: center;
+	margin: 0 auto;
+}
+.strength {
+	margin: auto;
+	display: table;
+}
+
+
+.main3{
+	background-color: #ECEFF1;
+	padding: 90px 0;
+}
+.main3-box{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.main3-profile-box1{
+	width:90%;
+	text-align: center;
+	float :none;
+	margin: 0 auto;
+}
+.main3-profile-image{
+	/*background-image: url(img/my-icon.jpg);*/
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	/*background-size: cover;
+  	background-position: center;*/
+}
+.main3-profile-box2{
+	width:90%;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+}
+
+.main3-profile-title1{
+	font-size: 20px;
+	margin:  20px 0 5px 0;
+	text-align: center;
+}
+.main3-profile-title2{
+	font-size: 20px;
+	margin:  20px 0 5px 0;
+	text-align: center;
+}
+.main3-profile-text{
+	font-size: 16px;
+	text-align: center;
+}
+
+
+.main4{
+	width: 100%;
+	padding: 90px 0;
+}
+.main4-box{
+	width: 90%;
+	margin: 0 auto;
+}
+.main4-box-adress{
+	margin: 0 auto;
+	text-align: center;
+}
+.main4-box-box{
+	width: 90%;
+	margin: 0 auto;
+	float: none;
+}
+.main4-box-adress{
+	margin: 0 auto;/*この箱自体だけを中央寄せしたい*/
+	display: table;
+	text-align: center;
+}
+.main4-profile-title1{
+	font-size: 20px;
+	margin: 29px 0 5px;
+}
+.main4-profile-title2{
+	font-size: 20px;
+	margin: 20px auto 5px;
+}
+.social i {
+  display: inline-block;
+  margin: 0 8px 8px 0;
+  font-size: 50px;
+}
+
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+}
+.footer-message{
+	width: 100%;
+	font-size: 16px;
+	color: #FAFAFA;
+	line-height: 60px;
+	text-align: center;
+}
+
+@media screen and (min-width:767px) {
+#nav-open {
+    display:none;
+  }
+}
