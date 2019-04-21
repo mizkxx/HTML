@@ -1,0 +1,9 @@
+.fab{
+	font-size: 32px;
+}
+
+.position {
+	position: absolute;
+	top: 100px;
+	left: 40px;
+}
